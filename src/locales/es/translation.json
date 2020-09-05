@@ -1,0 +1,8 @@
+{
+  "welcome": "Holiii, esto es react-i18next",
+  "sections": {
+    "main": {
+      "title": "Este es mi título"
+    }
+  }
+}
