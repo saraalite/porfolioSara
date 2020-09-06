@@ -2,7 +2,11 @@
   "welcome": "Holiii, esto es react-i18next",
   "sections": {
     "main": {
-      "title": "Este es mi título"
+      "title": "Este es mi título",
+      "menu": {
+        "nav1":"Sobre mi",
+        "nav2":"Proyectos"
+      }
     }
   }
 }

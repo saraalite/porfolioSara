@@ -1,0 +1,19 @@
+.test-text{
+    height:93vh;
+    padding-top:40px;
+    background-image: url('../images/heromobile.svg');
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:cover;
+    color:black;
+    margin-top:50px;
+    @media (min-width: 750px) {
+       padding-top:150px;
+    
+    }
+     @media (min-width: 1030px) {
+        padding-top:20px;
+         background-image:url('../images/herodesktop.svg')
+     }
+    
+}
