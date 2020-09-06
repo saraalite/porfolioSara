@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="160mm"
+   height="90mm"
+   version="1.1"
+   viewBox="0 0 160 90"
+   id="svg58"
+   sodipodi:docname="herotemplate.svg"
+   inkscape:version="1.0 (1.0+r73+1)">
+  <defs
+     id="defs62">
+    <rect
+       id="rect857"
+       height="39.138412"
+       width="127.26544"
+       y="-51.105135"
+       x="42.379925" />
+  </defs>
+  <sodipodi:namedview
+     inkscape:document-rotation="0"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1043"
+     id="namedview60"
+     showgrid="false"
+     inkscape:zoom="2.035638"
+     inkscape:cx="261.13144"
+     inkscape:cy="201.09883"
+     inkscape:window-x="1920"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg58" />
+  <metadata
+     id="metadata2">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="g12"
+     transform="translate(147.0502,48.409021)">
+    <rect
+       id="web-square-zig"
+       style="paint-order:stroke fill markers"
+       fill="#601e91"
+       height="10.67"
+       width="10.895"
+       y="9.0064001"
+       x="-137.13" />
+    <g
+       id="g10"
+       transform="matrix(0.44827,-0.27855,0.27855,0.44827,-64.019,-74.022)">
+      <path
+         id="path6"
+         d="m -213.46,82.638 -2.5218,6.2128 c 0,0 8.7926,3.279 9.0895,3.279 0.2969,0 5.8827,-5.5493 5.8827,-5.5493 0,0 6.0077,2.3051 6.5046,2.3051 0.49685,0 5.1177,-4.8754 5.1177,-4.8754 0,0 7.4052,2.7078 7.8628,2.389 0.45759,-0.31884 5.6188,-5.3072 5.6188,-5.3072 l 6.7313,2.369 5.8322,-5.9772 -4.2282,-4.23 -2.789,3.4902 -6.7233,-2.3459 -5.8576,5.3373 -7.8259,-2.3847 -4.704,4.5386 -6.7231,-2.1881 -5.7172,5.5544 z" />
+      <path
+         id="web-zig"
+         fill="#00fdcf"
+         d="m -213.79,81.427 -2.5218,6.2128 c 0,0 8.7926,3.279 9.0895,3.279 0.2969,0 5.8827,-5.5493 5.8827,-5.5493 0,0 6.0077,2.3051 6.5046,2.3051 0.49685,0 5.1177,-4.8753 5.1177,-4.8753 0,0 7.4052,2.7078 7.8628,2.389 0.4576,-0.3188 5.6188,-5.3072 5.6188,-5.3072 l 6.7313,2.369 5.8322,-5.9772 -4.2282,-4.23 -2.789,3.4902 -6.7233,-2.3459 -5.8576,5.3373 -7.8259,-2.3847 -4.704,4.5386 -6.7231,-2.1881 -5.7172,5.5544 z" />
+    </g>
+  </g>
+  <g
+     id="g26"
+     stroke-width="0.0023383"
+     stroke="#000000"
+     transform="translate(142.2978,48.28122)">
+    <path
+       id="path22"
+       style="paint-order:stroke fill markers"
+       d="m -54.966,8.6028 58.495,-8.872 -8.1866,20.866 -54.905,3.6438 z" />
+    <path
+       id="web-subtitle-developer"
+       style="paint-order:stroke fill markers"
+       fill="#00fdcf"
+       d="M -57.351,10.968 1.144,2.096 -7.0426,22.962 -61.9476,26.6058 Z" />
+  </g>
+  <g
+     id="g32"
+     stroke-width="0.0024751"
+     stroke="#000000"
+     transform="translate(142.3004,48.28072)">
+    <path
+       id="path28"
+       style="paint-order:stroke fill markers"
+       d="m -123.95,1.0863 51.854,7.7961 7.3358,15.569 -56.725,-4.6467 z" />
+    <path
+       id="web-subtitle-front"
+       style="paint-order:stroke fill markers"
+       fill="#ffa9b7"
+       d="m -121.14,3.2412 51.854,7.7961 7.3358,15.569 -56.725,-4.6467 z" />
+  </g>
+  <text
+     id="text34"
+     xml:space="preserve"
+     style="line-height:1.25;white-space:pre;shape-inside:url(#rect3764);"
+     word-spacing="0px"
+     letter-spacing="0px"
+     font-size="10.583px"
+     font-family="sans-serif, Ubuntu"
+     x="142.3"
+     y="58.951" />
+  <g
+     id="g44"
+     transform="translate(142.67311,61.2388)">
+    <circle
+       id="web-circle-thunder"
+       style="paint-order:stroke fill markers"
+       fill="#ff63be"
+       r="4.8418002"
+       cy="-43.740002"
+       cx="-122.75" />
+    <g
+       id="g42"
+       transform="matrix(0.56637,0.29186,-0.29186,0.56637,-25.499,-73.767)">
+      <path
+         id="path38"
+         d="m -123.62,99.175 8.1785,-0.03923 -3.5805,6.0708 3.3209,-0.10248 -3.0979,5.0558 3.3731,0.14752 -9.0556,12.317 0.71044,-8.022 -2.9465,0.0583 3.0838,-7.1977 -3.9978,0.12342 z" />
+      <path
+         id="web-thunder"
+         stroke-width="0.26458px"
+         stroke="#000000"
+         fill="#ebff7f"
+         d="m -124.86,99.707 8.1785,-0.03923 -3.5805,6.0708 3.3209,-0.10247 -3.0979,5.0558 3.3731,0.14752 -9.0556,12.317 0.71044,-8.022 -2.9465,0.0583 3.0838,-7.1977 -3.9978,0.12342 z" />
+    </g>
+  </g>
+  <g
+     id="g54"
+     transform="translate(139.7913,61.1441)">
+    <path
+       id="web-triangle-semi"
+       style="paint-order:stroke fill markers"
+       fill="#ebff7f"
+       d="m 8.4148,-14.384 -10.929,-6.5092 11.102,-6.2101 z" />
+    <g
+       id="g52"
+       transform="matrix(0.34072,0.28802,-0.28802,0.34072,73.999,-21.591)">
+      <path
+         id="path48"
+         style="paint-order:stroke fill markers"
+         d="m -105.54,90.859 a 18.131,18.131 0 0 0 -18.13,17.936 h 8.4708 a 9.6942,9.6942 0 0 1 -0.0837,-1.2692 9.6942,9.6942 0 0 1 9.6945,-9.6945 9.6942,9.6942 0 0 1 9.694,9.6945 9.6942,9.6942 0 0 1 -0.0837,1.2692 h 8.5679 a 18.131,18.131 0 0 0 -18.13,-17.936 z" />
+      <path
+         id="web-semi"
+         style="paint-order:stroke fill markers"
+         fill="#ff63be"
+         d="m -104.36,90.045 a 18.131,18.131 0 0 0 -18.13,17.936 h 8.4708 a 9.6942,9.6942 0 0 1 -0.0837,-1.2692 9.6942,9.6942 0 0 1 9.6945,-9.6945 9.6942,9.6942 0 0 1 9.694,9.6945 9.6942,9.6942 0 0 1 -0.08371,1.2692 h 8.568 a 18.131,18.131 0 0 0 -18.13,-17.936 z" />
+    </g>
+  </g>
+  <text
+     style="font-family:sans-serif, Ubuntu;font-size:10.58333334px;line-height:1.25;letter-spacing:0px;word-spacing:0px;-inkscape-font-specification:'sans-serif, Ubuntu';white-space:pre;shape-inside:url(#rect857);"
+     id="text855"
+     xml:space="preserve" />
+  <text
+     id="web-developer"
+     y="72.709518"
+     x="108.51345"
+     style="font-size:12.7px;line-height:1.25;font-family:Chicle;-inkscape-font-specification:Chicle;letter-spacing:0px;word-spacing:0px;fill:#ffffff;stroke-width:0.264583"
+     xml:space="preserve"
+     transform="rotate(-2.4412915)"><tspan
+       style="font-size:12.7px;text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:0.264583"
+       y="72.709518"
+       x="108.51345"
+       sodipodi:role="line"
+       id="tspan974">Developer</tspan></text>
+  <text
+     id="web-front"
+     y="65.049889"
+     x="52.703018"
+     style="font-size:12.7px;line-height:1.25;font-family:Chicle;-inkscape-font-specification:Chicle;letter-spacing:0px;word-spacing:0px;fill:#ffffff;stroke-width:0.264583"
+     xml:space="preserve"
+     transform="rotate(3.4248798)"><tspan
+       id="tspan891-1-9"
+       style="font-size:12.7px;text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:0.264583"
+       y="65.049889"
+       x="52.703018"
+       sodipodi:role="line">Front-end</tspan></text>
+  <g
+     transform="translate(-100.16476,-5.3489859)"
+     id="g885">
+    <path
+       id="web-title-circle"
+       fill="#ff63be"
+       d="m 180.11915,34.235615 35.829,3.9636 0.69234,-3.2507 -36.486,-4.0363 -0.0349,3.3234 m 0.72728,-6.5741 35.82899,3.9636 c 0.12668,-4.4355 -3.70819,-3.7375 -7.1966,-4.1234 l -21.037,-2.3273 c -3.44289,-0.38087 -6.7666,-1.7797 -7.5951,2.487 m 33.423,13.679 -33.19899,-3.6727 c 0.70441,4.0805 3.73789,3.740799 7.1965,4.1234 l 18.736,2.072701 c 3.3206,0.367339 5.77569,1.089498 7.2664,-2.523401 m -30.39501,-19.999 31.227,3.4545 c -0.61566,-1.4245 -1.327,-3.0872 -2.9365,-3.5761 -5.0141,-1.5232 -11.209,-1.316 -16.422,-1.8927 -2.6107,-0.28881 -5.9525,-1.2442 -8.5491,-0.80149 -1.4956,0.25502 -2.487,1.6705 -3.3191,2.8158 m 1.0339,23.738 c 6.6208,5.167 16.405,6.2494 23.995,2.654501 l 0.0364,-0.32871 -16.435,-1.818201 -7.59659,-0.507651 m 6.9248,-29.511999 16.764,1.8545 0.0364,-0.3287 c -4.82111,-2.5111 -11.70201,-4.7889 -16.80001,-1.5258 z"
+       style="stroke-width:1" />
+    <path
+       id="web-triangle-id"
+       style="paint-order:stroke fill markers"
+       stroke-width="0.0041637"
+       stroke="#000000"
+       fill="#00fdcf"
+       d="m 216.99615,27.145615 -34.138,30.220999 -19.93,-40.326999 z" />
+    <path
+       id="web-title-rectangle"
+       style="paint-order:stroke fill markers"
+       stroke-width="0.00280691"
+       stroke="#000000"
+       fill="#ebff7f"
+       d="m 147.48815,29.751615 65.581,-7.4324 -2.0635,16.501 -63.687,12.878 z" />
+  </g>
+  <text
+     id="web-title-sara"
+     y="33.391045"
+     x="78.74881"
+     style="font-size:18.2859px;line-height:1.25;font-family:Chicle;-inkscape-font-specification:Chicle;letter-spacing:0px;word-spacing:0px;fill:#601e91;fill-opacity:1;stroke-width:0.45715"
+     xml:space="preserve"><tspan
+       id="tspan893-7-5"
+       style="text-align:center;text-anchor:middle;fill:#601e91;fill-opacity:1;stroke-width:0.45715"
+       y="33.391045"
+       x="78.74881"
+       sodipodi:role="line">Sara Alite</tspan><tspan
+       id="tspan891-5-3"
+       style="text-align:center;text-anchor:middle;fill:#601e91;fill-opacity:1;stroke-width:0.45715"
+       y="56.248421"
+       x="78.74881"
+       sodipodi:role="line" /></text>
+</svg>

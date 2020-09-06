@@ -8,5 +8,9 @@
         "nav2":"Proyectos"
       }
     }
+  },
+  "bot": {
+    "thing1": "holi",
+    "thing2": "holi a tu"
   }
 }

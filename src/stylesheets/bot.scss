@@ -1,0 +1,19 @@
+.bot {
+  position: fixed;
+  bottom: -5px;
+  right: 10px;
+  display: flex;
+  align-items: center;
+  width: 150px;
+  height: 150px;
+
+  &:hover {
+      cursor: pointer;
+  }
+
+  @media (max-width: 480px) {
+    width: 80px;
+    height: 80px;
+}
+
+}

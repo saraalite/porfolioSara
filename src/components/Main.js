@@ -4,10 +4,12 @@ import Hero from './Hero';
 import About from './About';
 import Proyects from './Proyects';
 import Footer from './Footer';
+import Bot from './Bot';
 
 function Main() {
   return (
     <>
+      <Bot />
       <Menu />
       <Hero />
       <About />

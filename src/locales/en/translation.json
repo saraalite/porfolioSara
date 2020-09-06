@@ -8,5 +8,9 @@
         "nav2":"Projects"
       }
     }
+  },
+  "bot": {
+    "thing1": "hello",
+    "thing2": "hello you"
   }
 }
