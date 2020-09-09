@@ -14,12 +14,11 @@
     "thing2": "holi a tu"
   },
   "about": {
-    "p1": "¡Hola! Me llamo Sara Alite Villodre y soy desarrolladora Front End Junior.",
-    "p2":"En la universidad estudié Traducción e Interpretación. Mi primera lengua extranjera es inglés, la segunda francés y mi lengua nativa es el español. También he estudiado un poco de rumano y lengua de signos.",
-    "p3":"Me encantan los lenguajes de todo tipo, ¡los de programación también! Por eso decidí aprender a programar. Después de seguir un curso de Python y acudir a unas cuantas conferencias y talleres decidí que quería convertirme en programadora.",
-    "p4":"Por este motivo estudié un bootcamp y me enamoré aún más de la programación. Puedes echarle un vistazo a algunos de los proyectos que hice durante este curso en la sección 'Proyectos'.",
-    "p5":"Cuando terminé el bootcamp seguí estudiando por mi cuenta. En este momento estoy siguiendo varios cursos online y trabajando en proyectos personales para ser cada día una mejor profesional.",
-    "p6":"Si no estoy programando lo más probable es que esté leyendo sobre psicología, historia o filosofía, traduciendo por diversión, viendo una buena película de terror, paseando por la ciudad o la naturaleza, haciendo manualidades o cocinando."
-
+    "p-hello": "👋 ¡Hola! Me llamo Sara Alite Villodre y soy desarrolladora Front End Junior.",
+    "p-studies":"👩‍🎓En la universidad estudié Traducción e Interpretación. Mi primera lengua extranjera es inglés, la segunda francés y mi lengua nativa es el español. También he estudiado un poco de rumano y lengua de signos.",
+    "p-tech":"💻 Me encantan los lenguajes de todo tipo, ¡los de programación también! Por eso empecé a programar. Después de seguir un curso de Python y acudir a unas cuantas conferencias y talleres decidí que quería convertirme en programadora. Así que estudié un bootcamp, donde me enamoré aún más de la programación. Puedes echar un vistazo a algunos de los proyectos que hice durante este curso en la sección 'Proyectos'. Al terminar este curso he seguido formándome online por mi cuenta y trabajando en proyectos personales para ser cada día una mejor profesional.",
+    "p-hobbies":"🍂 Si no estoy programando lo más probable es que esté leyendo sobre psicología, historia o filosofía, traduciendo por diversión, viendo una buena película de terror, paseando por la ciudad o la naturaleza, haciendo manualidades o cocinando.",
+    "p-whatcanIdo": "¿Qué puedo hacer?",
+    "p-title-tech":"Estas son algunas de las tecnologías con las que he trabajado hasta ahora, pero estoy deseando aprender más."
   }
 }

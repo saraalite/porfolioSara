@@ -1,4 +1,7 @@
+@import "./variables.scss";
+
 .proyects-main{
     height: 100vh;
-    background-color:lightseagreen;
+    background-color: $third-color-light;
+    margin-top:-20px;
 }
