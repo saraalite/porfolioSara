@@ -19,6 +19,18 @@
     "p-tech":"💻 I love all sort of languages, tech languages too! That's why I started learning how to code. After following a Python course and attending a few tech conferences I decided to become a developer. Yay! So I studied a front end bootcamp and I fell in love (even more) with tech. You can take a look at some of the projects I did during this course in the section 'Projects'. When the bootcamp finished I continued learning on my own. Now I am following online courses to be better every day!",
     "p-hobbies":"🍂 When I am not coding you can find me reading about Psychology, History or Phylosophy, translating for fun, watching good horror films, wandering around the city or the nature, doing handcrafts or cooking.",
     "p-whatcanIdo": "What can I do?",
-    "p-tech":"These are some of the technologies I have worked with, but I can't wait to learn more."
+    "p-title-tech":"These are some of the technologies I have worked with, but I can't wait to learn more."
+  },
+  "projects":{
+    "p-personal":"These are my personal projects",
+    "p-porfolio":"My porfolio",
+    "p-recipes":"Recipes blog - ON DEVELOPEMENT",
+    "p-adalab":"Below you can find some of the projects I worked on during the bootcamp",
+    "p-css":"Responsive web page with animations and transitions - CSS/HTML5/Mobile first",
+    "p-css-group": "Group project: Responsive webpage to promote students - CSS/HTML5/SASS/Mobile first",
+    "p-javascript-group": "Group project: Web app: generator of customized visit cards - CSS/HTML/SASS/JS/Responsive",
+    "p-javascript": "Mini game: Guess the number - CSS/HTML/JS/Responsive",
+    "p-react-group": "Code refactoring of classmates' code - CSS/HTML/SASS/REACT/Responsive",
+    "p-react": "Rick and Morty character finder - CSS/HTML/REACT/Responsive"
   }
 }

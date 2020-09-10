@@ -20,5 +20,17 @@
     "p-hobbies":"🍂 Si no estoy programando lo más probable es que esté leyendo sobre psicología, historia o filosofía, traduciendo por diversión, viendo una buena película de terror, paseando por la ciudad o la naturaleza, haciendo manualidades o cocinando.",
     "p-whatcanIdo": "¿Qué puedo hacer?",
     "p-title-tech":"Estas son algunas de las tecnologías con las que he trabajado hasta ahora, pero estoy deseando aprender más."
+  },
+  "projects":{
+    "p-personal":"Estos son mis proyectos personales",
+    "p-porfolio":"Mi porfolio",
+    "p-recipes":"Blog de recetas - EN DESARROLLO",
+    "p-adalab":"Aquí puedes ver algunos de los proyectos que hice durante el bootcamp",
+    "p-css":"Página web responsive con animaciones y transiciones - CSS/HTML5/Mobile first",
+    "p-css-group": "Proyecto grupal: Página web responsive para dar a conocer a las estudiantes - CSS/HTML5/SASS/Mobile first",
+    "p-javascript-group": "Proyecto grupal: Web app: generador de tarjetas de visita personalizadas - CSS/HTML/SASS/JS/Responsive",
+    "p-javascript": "Mini juego: Adivina el número - CSS/HTML/JS/Responsive",
+    "p-react-group": "Refactorización de código del proyecto de compañeras - CSS/HTML/SASS/REACT/Responsive",
+    "p-react": "Buscador de personajes de Rick y Morty - CSS/HTML/REACT/Responsive"
   }
 }

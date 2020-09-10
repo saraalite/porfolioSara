@@ -12,6 +12,7 @@
   ],
   "ignorePatterns": ["temp.js", "**/node_modules/"],
   "rules": {
+    "react/jsx-no-target-blank": 0,
     "react/prop-types": 0,
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
     "prettier/prettier": [
