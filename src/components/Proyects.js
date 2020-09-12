@@ -1,145 +1,44 @@
 import React from 'react';
 import '../stylesheets/proyects.scss';
 import { useTranslation } from 'react-i18next';
-import github from '../assets/images/github.svg';
-import link from '../assets/images/link.svg';
+
+import Project from './Proyect';
+
+import projects from '../content/projects.json';
 
 function Proyects() {
   const { t } = useTranslation();
+
+  const adalabProjects = projects.adalab.map((project) => {
+    return (
+      <Project
+        githubUrl={project.urlGithub}
+        webUrl={project.webUrl}
+        description={project.description}
+        technologies={project.technologies}
+      />
+    );
+  });
+
+  const personalProjects = projects.personal.map((project) => {
+    return (
+      <Project
+        githubUrl={project.urlGithub}
+        webUrl={project.webUrl}
+        description={project.description}
+        technologies={project.technologies}
+      />
+    );
+  });
+
   return (
     <section className="proyects-main">
-      <h1>{t('sections.main.menu.nav2')}</h1>
-      {t('projects.p-personal')}
-      <article className="projects-container">
-        <div className="project">
-          <div className="project-test" />
-          <nav>
-            <img className="project-link" src={github} alt="github logo" />
-            <img className="project-link" src={link} alt="external link" />
-          </nav>
-          <p>{t('projects.p-porfolio')}</p>
-        </div>
-        <div className="project">
-          <div className="project-test" />
-          <nav>
-            <img className="project-link" src={github} alt="github logo" />
-            <img className="project-link" src={link} alt="external link" />
-          </nav>
-          <p>{t('projects.p-recipes')}</p>
-        </div>
-      </article>
+      <h1>{t('menu.nav-projects')}</h1>
+      <h3>{t('projects.personal')}</h3>
+      <article className="projects-container">{personalProjects}</article>
 
-      {t('projects.p-adalab')}
-      <article className="projects-container">
-        <div className="project">
-          <div className="project-test" />
-          <nav>
-            <a
-              href="https://github.com/Adalab/modulo-1-evaluacion-final-saraalite"
-              target="_blank"
-            >
-              <img className="project-link" src={github} alt="github logo" />
-            </a>
-            <a
-              href="https://beta.adalab.es/modulo-1-evaluacion-final-saraalite/"
-              target="_blank"
-            >
-              <img className="project-link" src={link} alt="external link" />
-            </a>
-          </nav>
-          <p>{t('projects.p-css')}</p>
-        </div>
-        <div className="project">
-          <div className="project-test" />
-          <nav>
-            <a
-              href="https://github.com/Adalab/project-promo-j-module-1-team-4"
-              target="_blank"
-            >
-              <img className="project-link" src={github} alt="github logo" />
-            </a>
-            <a
-              href="https://beta.adalab.es/project-promo-j-module-1-team-4/"
-              target="_blank"
-            >
-              <img className="project-link" src={link} alt="external link" />
-            </a>
-          </nav>
-          <p>{t('projects.p-css-group')}</p>
-        </div>
-        <div className="project">
-          <div className="project-test" />
-          <nav>
-            <a
-              href="https://github.com/Adalab/project-promo-j-module-2-team-3-morning"
-              target="_blank"
-            >
-              <img className="project-link" src={github} alt="github logo" />
-            </a>
-            <a
-              href="https://beta.adalab.es/project-promo-j-module-2-team-3-morning/"
-              target="_blank"
-            >
-              <img className="project-link" src={link} alt="external link" />
-            </a>
-          </nav>
-          <p>{t('projects.p-javascript-group')}</p>
-        </div>
-        <div className="project">
-          <div className="project-test" />
-          <nav>
-            <a
-              href="https://github.com/Adalab/modulo-2-evaluacion-intermedia-saraalite"
-              target="_blank"
-            >
-              <img className="project-link" src={github} alt="github logo" />
-            </a>
-            <a
-              href="https://beta.adalab.es/modulo-2-evaluacion-intermedia-saraalite/"
-              target="_blank"
-            >
-              <img className="project-link" src={link} alt="external link" />
-            </a>
-          </nav>
-          <p>{t('projects.p-javascript')}</p>
-        </div>
-        <div className="project">
-          <div className="project-test" />
-          <nav>
-            <a
-              href="https://github.com/Adalab/project-promo-j-module-3-team-2"
-              target="_blank"
-            >
-              <img className="project-link" src={github} alt="github logo" />
-            </a>
-            <a
-              href="https://beta.adalab.es/project-promo-j-module-3-team-2/#/"
-              target="_blank"
-            >
-              <img className="project-link" src={link} alt="external link" />
-            </a>
-          </nav>
-          <p>{t('projects.p-react-group')}</p>
-        </div>
-        <div className="project">
-          <div className="project-test" />
-          <nav>
-            <a
-              href="https://github.com/Adalab/modulo-3-evaluacion-final-saraalite"
-              target="_blank"
-            >
-              <img className="project-link" src={github} alt="github logo" />
-            </a>
-            <a
-              href="https://beta.adalab.es/modulo-3-evaluacion-final-saraalite/#/"
-              target="_blank"
-            >
-              <img className="project-link" src={link} alt="external link" />
-            </a>
-          </nav>
-          <p>{t('projects.p-react')}</p>
-        </div>
-      </article>
+      <h3 className="projects-adalab">{t('projects.adalab')}</h3>
+      <article className="projects-container">{adalabProjects}</article>
     </section>
   );
 }

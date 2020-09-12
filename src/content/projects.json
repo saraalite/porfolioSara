@@ -1,0 +1,60 @@
+{ 
+  "personal": [
+    {
+      "urlGithub": "",
+      "webUrl": "",
+      "description": "projects.porfolio",
+      "technologies": ["css", "html", "mobile_first"]
+    },
+    {
+      "urlGithub": "",
+      "webUrl": "",
+      "description": "projects.recipes",
+      "technologies": ["css", "html", "mobile_first"]
+    }
+  ],
+  "adalab": [
+    {
+      "urlGithub":
+        "https://github.com/Adalab/modulo-1-evaluacion-final-saraalite",
+      "webUrl": "https://beta.adalab.es/modulo-1-evaluacion-final-saraalite/",
+      "description": "projects.css",
+      "technologies": ["css", "html", "mobile_first"]
+    },
+    {
+      "urlGithub":
+        "https://github.com/Adalab/project-promo-j-module-1-team-4",
+      "webUrl": "https://beta.adalab.es/project-promo-j-module-1-team-4/",
+      "description": "projects.css-group",
+      "technologies": ["css", "html", "mobile_first"]
+    },
+    {
+      "urlGithub":
+        "https://github.com/Adalab/project-promo-j-module-2-team-3-morning",
+      "webUrl": "https://beta.adalab.es/project-promo-j-module-2-team-3-morning/",
+      "description": "projects.javascript-group",
+      "technologies": ["css", "html", "mobile_first"]
+    },
+    {
+      "urlGithub":
+        "https://github.com/Adalab/modulo-2-evaluacion-intermedia-saraalite",
+      "webUrl": "https://beta.adalab.es/modulo-2-evaluacion-intermedia-saraalite/",
+      "description": "projects.javascript",
+      "technologies": ["css", "html", "mobile_first"]
+    },
+    {
+      "urlGithub":
+        "https://github.com/Adalab/project-promo-j-module-3-team-2",
+      "webUrl": "https://beta.adalab.es/project-promo-j-module-3-team-2/#/",
+      "description": "projects.react-group",
+      "technologies": ["css", "html", "mobile_first"]
+    },
+    {
+      "urlGithub":
+        "https://github.com/Adalab/modulo-3-evaluacion-final-saraalite",
+      "webUrl": "https://beta.adalab.es/modulo-3-evaluacion-final-saraalite/#/",
+      "description": "projects.react",
+      "technologies": ["css", "html", "react", "mobile_first", "responsive"]
+    }
+  ]
+}

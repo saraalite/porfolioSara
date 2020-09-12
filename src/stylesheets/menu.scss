@@ -9,8 +9,8 @@
   display: flex;
   justify-content: space-around;
   position: fixed;
-  width: 100%; 
-  height: 7vh;
+  width: 100%;
+  height: 60px;
 }
 
 .language-button{
@@ -19,7 +19,7 @@
 }
 
 .button-es{
-  border-right: 1px solid purple;
+  border-right: 1px solid $fourth-color;
 }
 
 .language-button-container{

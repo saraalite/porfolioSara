@@ -15,19 +15,19 @@ function About() {
   const { t } = useTranslation();
   return (
     <section className="about-main">
-      <h1 className="about-title">{t('sections.main.menu.nav1')}</h1>
+      <h1 className="about-title">{t('menu.nav-about')}</h1>
       <article className="about-flex">
         <img className="foto-sara" src={fotoSara} alt="Sara Alite" />
         <article className="about-text">
-          <p>{t('about.p-hello')}</p>
-          <p>{t('about.p-studies')}</p>
-          <p>{t('about.p-tech')}</p>
-          <p>{t('about.p-hobbies')}</p>
+          <p>{t('about.hello')}</p>
+          <p>{t('about.studies')}</p>
+          <p>{t('about.tech')}</p>
+          <p>{t('about.hobbies')}</p>
         </article>
       </article>
       <article>
-        <h4 className="about-secondary-title">{t('about.p-whatcanIdo')}</h4>
-        <p className="about-secondary-title">{t('about.p-title-tech')}</p>
+        <h4 className="about-secondary-title">{t('about.whatcanIdo')}</h4>
+        <p className="about-secondary-title">{t('about.title-tech')}</p>
         <div className="about-grid-container">
           <img className="tech-icon" src={css} alt="css logo" />
           <img className="tech-icon" src={html} alt="html logo" />

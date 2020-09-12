@@ -22,8 +22,9 @@ function Menu() {
           EN
         </button>
       </div>
-      <p>{t('sections.main.menu.nav1')}</p>
-      <p>{t('sections.main.menu.nav2')}</p>
+      <p>{t('menu.nav-about')}</p>
+      <p>{t('menu.nav-projects')}</p>
+      <p>{t('menu.nav-contact')}</p>
     </header>
   );
 }

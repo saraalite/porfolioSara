@@ -9,8 +9,8 @@ function Contact() {
   const { t } = useTranslation();
   return (
     <main className="contact-section">
-      <h1 className="contact-title">{t('contact.p-contact-title')}</h1>
-      <p>{t('contact.p-contact-intro')}</p>
+      <h1 className="contact-title">{t('menu.nav-contact')}</h1>
+      <p>{t('contact.intro')}</p>
       <div className="socialmedia-container">
         <img className="contact-icon" src={github} alt="github logo" />
         <p>https://github.com/saraalite</p>
