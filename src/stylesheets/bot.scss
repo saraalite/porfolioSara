@@ -1,19 +1,36 @@
 .bot {
   position: fixed;
-  bottom: -5px;
+/*   display: flex;
+  align-items: center; */
+  bottom: -15px;
   right: 10px;
-  display: flex;
-  align-items: center;
-  width: 150px;
-  height: 150px;
-
-  &:hover {
+  .person{
+    width: 150px;
+    height: 150px;
+    @media (max-width: 480px) {
+      width: 80px;
+      height: 80px;
+    }
+    &:hover {
       cursor: pointer;
+    }
+    
   }
-
-  @media (max-width: 480px) {
-    width: 80px;
-    height: 80px;
+  
 }
 
+.dialog {
+  padding: 15px;
+  bottom: 150px;
+  right: 10px;
+  position: fixed;
+  background-color: white;
+  text-align: center;
+  border-radius: 50px;
+  max-width: 300px;
+  @media (max-width: 480px) {
+    bottom: 80px;
+  }
+  /* bottom: -50px;
+  right: 5px; */
 }

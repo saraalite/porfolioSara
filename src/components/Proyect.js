@@ -17,7 +17,13 @@ function Proyect({ githubUrl, webUrl, technologies, description }) {
   };
 
   const technologiesBadges = technologies.map((technology) => {
-    return <img src={technologiesUrls[technology]} alt={technology} />;
+    return (
+      <img
+        key={technology}
+        src={technologiesUrls[technology]}
+        alt={technology}
+      />
+    );
   });
 
   let image;
@@ -29,7 +35,11 @@ function Proyect({ githubUrl, webUrl, technologies, description }) {
 
   return (
     <div className="project">
-      <img className="" src={image} alt={description} />
+      <div className="project-image">
+        <a href={webUrl} target="_blank">
+          <img src={image} alt={description} />
+        </a>
+      </div>
       <nav>
         <a href={githubUrl} target="_blank">
           <img className="project-link" src={github} alt="github logo" />

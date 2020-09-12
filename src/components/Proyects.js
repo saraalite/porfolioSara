@@ -12,6 +12,7 @@ function Proyects() {
   const adalabProjects = projects.adalab.map((project) => {
     return (
       <Project
+        key={project.description}
         githubUrl={project.urlGithub}
         webUrl={project.webUrl}
         description={project.description}
@@ -23,6 +24,7 @@ function Proyects() {
   const personalProjects = projects.personal.map((project) => {
     return (
       <Project
+        key={project.description}
         githubUrl={project.urlGithub}
         webUrl={project.webUrl}
         description={project.description}

@@ -1,6 +1,7 @@
 import React from 'react';
 import '../stylesheets/menu.scss';
 import { useTranslation } from 'react-i18next';
+import Scrollspy from 'react-scrollspy';
 
 function Menu() {
   const { t, i18n } = useTranslation();
@@ -22,9 +23,21 @@ function Menu() {
           EN
         </button>
       </div>
-      <p>{t('menu.nav-about')}</p>
-      <p>{t('menu.nav-projects')}</p>
-      <p>{t('menu.nav-contact')}</p>
+      <Scrollspy
+        className="section-menu"
+        items={['about', 'section-2', 'section-3']}
+        currentClassName="is-current"
+      >
+        <li>
+          <a href="#about">{t('menu.nav-about')}</a>
+        </li>
+        <li>
+          <a href="#section-2">{t('menu.nav-projects')}</a>
+        </li>
+        <li>
+          <a href="#section-3">{t('menu.nav-contact')}</a>
+        </li>
+      </Scrollspy>
     </header>
   );
 }

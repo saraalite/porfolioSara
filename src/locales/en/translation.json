@@ -6,7 +6,8 @@
   },
   "bot": {
     "thing1": "hello",
-    "thing2": "hello you"
+    "thing2": "hello you",
+    "thing3": "hello you you"
   },
   "about": {
     "hello": "👋 Hi! I am Sara Alite Villodre and I am a Junior Front End Developer.",

@@ -11,17 +11,24 @@
   position: fixed;
   width: 100%;
   height: 60px;
+
+  .language-button-container{
+    margin-top: 15px;
+    .button-es{
+      border-right: 1px solid $fourth-color;
+    }
+    .language-button{
+      border:0px;
+      background-color: $primary-color;
+    }
+  }
+  .section-menu {
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+    .is-current{
+      background-color: red;
+    }
+  }
 }
 
-.language-button{
-  border:0px;
-  background-color: $primary-color;
-}
-
-.button-es{
-  border-right: 1px solid $fourth-color;
-}
-
-.language-button-container{
-  margin-top: 15px;
-}
