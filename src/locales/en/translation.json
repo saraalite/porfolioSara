@@ -32,5 +32,9 @@
     "p-javascript": "Mini game: Guess the number - CSS/HTML/JS/Responsive",
     "p-react-group": "Code refactoring of classmates' code - CSS/HTML/SASS/REACT/Responsive",
     "p-react": "Rick and Morty character finder - CSS/HTML/REACT/Responsive"
+  },
+  "contact":{
+    "p-contact-title":"Contact",
+    "p-contact-intro":"If you want to contact me in order to make suggestions about my work, take a look at my social media or just chat you can find me in Linkedin, Github or send me an email. I am also looking for my first job as a front end developer, so if you think that my profile fits what you are looking for, don't hesitate and let me know!"
   }
 }

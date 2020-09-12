@@ -32,5 +32,9 @@
     "p-javascript": "Mini juego: Adivina el número - CSS/HTML/JS/Responsive",
     "p-react-group": "Refactorización de código del proyecto de compañeras - CSS/HTML/SASS/REACT/Responsive",
     "p-react": "Buscador de personajes de Rick y Morty - CSS/HTML/REACT/Responsive"
+  },
+  "contact":{
+    "p-contact-title":"Contacto",
+    "p-contact-intro":"Si quieres contactar conmigo para hacer sugerencias sobre mi trabajo, ver mis redes sociales o simplemente charlar puedes encontrarme en Linkedin, Github o escribirme un email. También estoy buscando mi primer empleo como desarrolladora Front End, así que si crees que mi perfil puede encajar en lo que buscas no dudes en decírmelo."
   }
 }

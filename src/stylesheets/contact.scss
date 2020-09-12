@@ -1,0 +1,39 @@
+@import "./variables.scss";
+*{
+    font-family: 'Mitr', sans-serif;
+    text-align:center;
+    
+}
+.contact-section{
+background-color: $secondary-color; 
+margin-top:-22px;
+padding-left:10px;
+padding-right:10px;
+@media (min-width: 500px){
+    padding-left:150px;
+    padding-right:150px;
+}
+
+}
+.contact-title{
+    text-align:center;
+    padding-top:30px;
+}
+.contact-icon{
+    width:30px;
+    align-self:center;
+
+}
+.socialmedia-container{
+    display:flex;
+    flex-direction:column;
+    text-align:center;
+    @media (min-width: 800px){
+        flex-direction:row;
+        justify-content:space-between
+    }
+
+}
+.contact-icon{
+    margin-right:-150px;
+}
