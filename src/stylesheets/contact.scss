@@ -3,11 +3,11 @@
 
 
 .contact-section {
-  z-index: -2;
+  z-index: 0;
   position: relative;
   text-align:center;
   background-color: $secondary-color-light; 
-  margin-top:-22px;
+  margin-top:-55px;
   padding-left:10px;
   padding-right:10px;
   padding-bottom:40px;
@@ -18,20 +18,19 @@
   
   .contact-title{
     text-align:center;
-    padding-top: 130px;
+    padding-top: 160px;
   }
 
   .contact-background{
     z-index: -1;
     position: absolute;
-    height: 7em;
-    width: 7em; 
-    left: calc(50% - 3.5em); 
-    top: 10px;
-    #web-thunder {
+    height: 10em;
+    width: 10em; 
+    left: calc(50% - 5em); 
+    #web-zig {
       fill: $third-color;
     }
-    #web-square {
+    #web-triangle {
       fill: var(--change-background);
     }
   }

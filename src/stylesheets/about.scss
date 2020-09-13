@@ -1,7 +1,7 @@
 @import "./variables.scss";
 
 .about-main{
-    z-index: -2;
+    z-index: 0;
     position: relative;
     padding-bottom: 60px;
     background-color: $secondary-color-light;
@@ -90,12 +90,3 @@
     }
     
 }
-
-
-/* font-family: 'Fredoka One', cursive;
-font-family: 'Kalam', cursive;
-font-family: 'Kite One', sans-serif;
-font-family: 'Mitr', sans-serif;
-font-family: 'MuseoModerno', cursive;
-font-family: 'Permanent Marker', cursive;
-font-family: 'Special Elite', cursive; */

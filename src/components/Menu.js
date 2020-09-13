@@ -27,22 +27,17 @@ function Menu() {
         className="section-menu"
         items={['about', 'projects', 'contact']}
         currentClassName="is-current"
+        componentTag="div"
       >
-        <li>
-          <a className="section-button" href="#about">
-            {t('menu.nav-about')}
-          </a>
-        </li>
-        <li>
-          <a className="section-button" href="#projects">
-            {t('menu.nav-projects')}
-          </a>
-        </li>
-        <li>
-          <a className="section-button" href="#contact">
-            {t('menu.nav-contact')}
-          </a>
-        </li>
+        <a className="section-button" href="#about">
+          {t('menu.nav-about')}
+        </a>
+        <a className="section-button" href="#projects">
+          {t('menu.nav-projects')}
+        </a>
+        <a className="section-button" href="#contact">
+          {t('menu.nav-contact')}
+        </a>
       </Scrollspy>
     </header>
   );

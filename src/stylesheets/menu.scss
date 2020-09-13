@@ -1,6 +1,7 @@
 @import "./variables.scss";
 
 .main-menu{
+  z-index: 2;
   background-color: $primary-color;
   color: white;
   top: 0px;
@@ -40,8 +41,9 @@
   }
   .section-menu {
     display: flex;
-    width: 80%;
+    width: 90%;
     justify-content: space-around;
+    align-self: center;
     .is-current{
       text-decoration: underline;
       font-weight: bold;
@@ -54,4 +56,3 @@
     }
   }
 }
-

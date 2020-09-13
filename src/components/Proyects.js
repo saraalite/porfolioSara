@@ -46,7 +46,7 @@ function Proyects() {
       onMouseLeave={() => setChancheColorFormAndImage(false)}
       style={{
         '--change-background': chancheColorFormAndImage
-          ? 'var(--primary-color)'
+          ? 'var(--secondary-color)'
           : 'var(--fourth-color)',
       }}
     >
