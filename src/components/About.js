@@ -33,8 +33,8 @@ function About() {
       }}
     >
       <section id="about" className="about-main">
-        <h1 className="about-title">{t('menu.nav-about')}</h1>
         <AboutBackground className="about-background" />
+        <h1 className="about-title">{t('menu.nav-about')}</h1>
         <article className="about-flex">
           <img
             className="me-image"
