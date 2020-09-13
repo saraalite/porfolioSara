@@ -21,12 +21,11 @@
       width: 7em; 
       left: 30px; 
       top: 20px;
-      fill: var(--change-background);
       #web-thunder {
         fill: $third-color;
       }
       #web-square {
-        fill: $fourth-color;
+        fill: var(--change-background);
       }
     }
     

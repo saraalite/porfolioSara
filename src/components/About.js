@@ -27,7 +27,9 @@ function About() {
       onMouseEnter={() => setChancheColorFormAndImage(true)}
       onMouseLeave={() => setChancheColorFormAndImage(false)}
       style={{
-        '--change-background': chancheColorFormAndImage ? 'white' : 'black',
+        '--change-background': chancheColorFormAndImage
+          ? 'var(--primary-color)'
+          : 'var(--fourth-color)',
       }}
     >
       <section id="about" className="about-main">
