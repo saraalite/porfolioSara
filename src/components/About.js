@@ -11,10 +11,13 @@ import react from '../assets/images/react.svg';
 import git from '../assets/images/git.svg';
 import github from '../assets/images/github.svg';
 
+import { ReactComponent as AboutBackground } from '../assets/images/about.svg';
+
 function About() {
   const { t } = useTranslation();
   return (
     <section id="about" className="about-main">
+      <AboutBackground className="about-background" />
       <h1 className="about-title">{t('menu.nav-about')}</h1>
       <article className="about-flex">
         <img className="foto-sara" src={fotoSara} alt="Sara Alite" />
