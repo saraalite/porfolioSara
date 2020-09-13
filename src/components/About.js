@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import '../stylesheets/about.scss';
 import { useTranslation } from 'react-i18next';
-import reflective from '../assets/images/me/reflective.png';
-import serius from '../assets/images/me/serius.png';
+import reflective from '../assets/images/me/reflective.webp';
+import serius from '../assets/images/me/serius.webp';
 import gulp from '../assets/images/technologies/gulp.svg';
 import css from '../assets/images/technologies/css.svg';
 import html from '../assets/images/technologies/html5.svg';
@@ -36,7 +36,7 @@ function About() {
         <article className="about-flex">
           <img
             className="me-image"
-            src={chancheColorFormAndImage ? serius : reflective}
+            src={chancheColorFormAndImage ? reflective : serius}
             alt="Sara Alite"
           />
           <article className="about-text">

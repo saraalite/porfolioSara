@@ -10,7 +10,7 @@
     "jsx-a11y",
     "prettier"
   ],
-  "ignorePatterns": ["temp.js", "**/node_modules/"],
+  "ignorePatterns": ["temp.js", "**/node_modules/", "**/src/assets/*"],
   "rules": {
     "react/jsx-no-target-blank": 0,
     "react/prop-types": 0,
