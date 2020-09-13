@@ -5,9 +5,18 @@
     "nav-contact":"Contact"
   },
   "bot": {
-    "thing1": "hello",
-    "thing2": "hello you",
-    "thing3": "hello you you"
+    "sentence1": "Click here to chat with me :)",
+    "sentence2": "Welcome to my portfolio!",
+    "sentence3": "Do you want to take a look at my code? Go to my Github profile, in the Contact section!",
+    "sentence4": "You can also send me an email or visit my Linkedin profile",
+    "sentence5": "Go to Proyects section to take a look at my work",
+    "sentence6": "I hope this 90s decoration takes you to your best years",
+    "sentence7": "If you have suggestions to improve my code you can create a pull request in my Github profile",
+    "sentence8": "But...it works on my machine!",
+    "sentence9": "Have you tried $sudo?",
+    "sentence10": "Did you know that September the 13th is the software developers day?",
+    "sentence11": "How many developers does it take to change a light bulb? None, it's a hardware problem",
+    "sentence12": "There are 10 types of people in the world: those who understand binary and those who don't"
   },
   "about": {
     "hello": "👋 Hi! I am Sara Alite Villodre and I am a Junior Front End Developer.",
