@@ -5,9 +5,18 @@
     "nav-contact":"Contacto"
   },
   "bot": {
-    "thing1": "holi a asd tu asdasdas askjhdfasd lkjfghas lkfjhasdlk fjhsadlkfjh askldfjhasl kdfhjasllkdjf haslkdjfhask ldjfhasl kdjfhaslkdfjh asdlkfjhasdl kfjhasdlkfh",
-    "thing2": "23r a tu tu asdasdas askjhdfasd lkjfghas lkfjhasdlk fjhsadlkfjh askldfjhasl kdfhjasllkdjf haslkdjfhask ldjfhasl kdjfhaslkdfjh asdlkfjhasdl kfjhasdlkfh",
-    "thing3": "7dfg a tu tu asdasdas askjhdfasd lkjfghas lkfjhasdlk fjhsadlkfjh askldfjhasl kdfhjasllkdjf haslkdjfhask ldjfhasl kdjfhaslkdfjh asdlkfjhasdl kfjhasdlkfh"
+    "sentence1": "Haz click aquí para hablar conmigo :)",
+    "sentence2": "Te doy la bienvenida a mi porfolio",
+    "sentence3": "¿Quieres ver mi código? ¡Puedes hacerlo en mi perfil de Github, en la sección Contacto!",
+    "sentence4": "También puedes mandarme un email o ver mi perfil en Linkedin",
+    "sentence5": "Pásate por la sección Proyectos para ver mis trabajos",
+    "sentence6": "Espero que esta decoración noventera te transporte a tus mejores años",
+    "sentence7": "Si tienes sugerencias para mejorar mi código puedes ir a mi Github y hacer una pull request",
+    "sentence8": "¡Pero si en mi local funciona!",
+    "sentence9": "¿Has probado con $sudo?",
+    "sentence10": "¿Sabías que el 13 de septiembre es el día de los programadores y programadoras?",
+    "sentence11": "¿Cuántos desarrolladores hacen falta para cambiar una bombilla? Ninguno, es cosa del hardware",
+    "sentence12": "¿Qué necesita un programador/a para bailar? Algo-ritmo"
   },
   "about": {
     "hello": "👋 ¡Hola! Me llamo Sara Alite Villodre y soy desarrolladora Front End Junior.",
@@ -26,6 +35,7 @@
     "css-group": "Proyecto grupal: Página web responsive para dar a conocer a las estudiantes - CSS/HTML5/SASS/Mobile first",
     "javascript-group": "Proyecto grupal: Web app: generador de tarjetas de visita personalizadas - CSS/HTML/SASS/JS/ Responsive",
     "javascript": "Mini juego: Adivina el número - CSS/HTML/JS/Responsive",
+    "javascript-film":"Buscador de series con conexión a API Rest",
     "react-group": "Refactorización de código del proyecto de compañeras - CSS-HTML-SASS-REACT-Responsive",
     "react": "Buscador de personajes de Rick y Morty - CSS/HTML/REACT/Responsive"
   },

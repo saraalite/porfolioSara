@@ -14,11 +14,13 @@ function Proyect({ githubUrl, webUrl, technologies, description }) {
     mobile_first: 'https://img.shields.io/badge/Mobile_First-green',
     responsive: 'https://img.shields.io/badge/Responsive-blue',
     react: 'https://img.shields.io/badge/React-blue?logo=react&logoColor=white',
+    sass: 'https://img.shields.io/badge/SASS-ff69b4?logo=SASS&logoColor=white',
   };
 
   const technologiesBadges = technologies.map((technology) => {
     return (
       <img
+        className="tech-badge"
         key={technology}
         src={technologiesUrls[technology]}
         alt={technology}

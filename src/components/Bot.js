@@ -6,11 +6,23 @@ import { ReactComponent as Person } from '../assets/images/bot.svg';
 
 function Bot() {
   const { t } = useTranslation();
-  const [isTalking, setIsTalking] = useState('bot.thing1');
+  const [isTalking, setIsTalking] = useState('bot.sentence1');
   const [timesTalk, setTimesTalk] = useState(0);
   const [timeOut, setTimesOut] = useState(() => {});
 
-  const thingToSay = ['bot.thing2', 'bot.thing3'];
+  const thingToSay = [
+    'bot.sentence2',
+    'bot.sentence3',
+    'bot.sentence4',
+    'bot.sentence5',
+    'bot.sentence6',
+    'bot.sentence7',
+    'bot.sentence8',
+    'bot.sentence9',
+    'bot.sentence10',
+    'bot.sentence11',
+    'bot.sentence12',
+  ];
 
   const saySomething = () => {
     let nextToSay = timesTalk;
@@ -24,7 +36,7 @@ function Bot() {
     setTimesOut(
       setTimeout(() => {
         setIsTalking('');
-      }, 2000)
+      }, 4000)
     );
   };
 

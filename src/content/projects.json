@@ -4,13 +4,13 @@
       "urlGithub": "",
       "webUrl": "",
       "description": "projects.porfolio",
-      "technologies": ["css", "html", "mobile_first"]
+      "technologies": ["css", "html", "sass", "react", "responsive","mobile_first"]
     },
     {
       "urlGithub": "",
       "webUrl": "",
       "description": "projects.recipes",
-      "technologies": ["css", "html", "mobile_first"]
+      "technologies": ["css", "html", "sass", "react", "responsive"]
     }
   ],
   "adalab": [
@@ -26,28 +26,35 @@
         "https://github.com/Adalab/project-promo-j-module-1-team-4",
       "webUrl": "https://beta.adalab.es/project-promo-j-module-1-team-4/",
       "description": "projects.css-group",
-      "technologies": ["css", "html", "mobile_first"]
+      "technologies": ["css", "html", "sass", "mobile_first"]
     },
     {
       "urlGithub":
         "https://github.com/Adalab/project-promo-j-module-2-team-3-morning",
       "webUrl": "https://beta.adalab.es/project-promo-j-module-2-team-3-morning/",
       "description": "projects.javascript-group",
-      "technologies": ["css", "html", "mobile_first"]
+      "technologies": ["css", "html", "sass", "javascript", "responsive"]
     },
     {
       "urlGithub":
         "https://github.com/Adalab/modulo-2-evaluacion-intermedia-saraalite",
       "webUrl": "https://beta.adalab.es/modulo-2-evaluacion-intermedia-saraalite/",
       "description": "projects.javascript",
-      "technologies": ["css", "html", "mobile_first"]
+      "technologies": ["css", "html", "javascript"]
+    },
+    {
+      "urlGithub":
+        "https://github.com/Adalab/modulo-2-evaluacion-final-saraalite",
+      "webUrl": "http://beta.adalab.es/modulo-2-evaluacion-final-saraalite/",
+      "description": "projects.javascript-film",
+      "technologies": ["css", "html", "javascript"]
     },
     {
       "urlGithub":
         "https://github.com/Adalab/project-promo-j-module-3-team-2",
       "webUrl": "https://beta.adalab.es/project-promo-j-module-3-team-2/#/",
       "description": "projects.react-group",
-      "technologies": ["css", "html", "mobile_first"]
+      "technologies": ["css", "html", "sass", "react", "responsive"]
     },
     {
       "urlGithub":
