@@ -31,7 +31,7 @@ function About() {
       <article>
         <h4 className="about-secondary-title">{t('about.whatcanIdo')}</h4>
         <p className="about-secondary-title">{t('about.title-tech')}</p>
-        <div className="about-grid-container">
+        <div className="about-flex-container">
           <img className="tech-icon" src={css} alt="css logo" />
           <img className="tech-icon" src={html} alt="html logo" />
           <img className="tech-icon" src={sass} alt="sass logo" />

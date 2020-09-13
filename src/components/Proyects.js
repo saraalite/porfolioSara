@@ -34,7 +34,7 @@ function Proyects() {
   });
 
   return (
-    <section className="proyects-main">
+    <section id="projects" className="proyects-main">
       <h1>{t('menu.nav-projects')}</h1>
       <h3>{t('projects.personal')}</h3>
       <article className="projects-container">{personalProjects}</article>
