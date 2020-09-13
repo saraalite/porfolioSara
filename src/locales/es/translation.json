@@ -5,7 +5,7 @@
     "nav-contact":"Contacto"
   },
   "bot": {
-    "thing1": "holi a asd tu asdasdas askjhdfasd lkjfghas lkfjhasdlk fjhsadlkfjh askldfjhasl kdfhjasllkdjf haslkdjfhask ldjfhasl kdjfhaslkdfjh asdlkfjhasdl kfjhasdlkfh",
+    "thing1": "Haz click aquí para hablar conmigo :)",
     "thing2": "23r a tu tu asdasdas askjhdfasd lkjfghas lkfjhasdlk fjhsadlkfjh askldfjhasl kdfhjasllkdjf haslkdjfhask ldjfhasl kdjfhaslkdfjh asdlkfjhasdl kfjhasdlkfh",
     "thing3": "7dfg a tu tu asdasdas askjhdfasd lkjfghas lkfjhasdlk fjhsadlkfjh askldfjhasl kdfhjasllkdjf haslkdjfhask ldjfhasl kdjfhaslkdfjh asdlkfjhasdl kfjhasdlkfh"
   },
@@ -26,6 +26,7 @@
     "css-group": "Proyecto grupal: Página web responsive para dar a conocer a las estudiantes - CSS/HTML5/SASS/Mobile first",
     "javascript-group": "Proyecto grupal: Web app: generador de tarjetas de visita personalizadas - CSS/HTML/SASS/JS/ Responsive",
     "javascript": "Mini juego: Adivina el número - CSS/HTML/JS/Responsive",
+    "javascript-film":"Buscador de series con conexión a API Rest",
     "react-group": "Refactorización de código del proyecto de compañeras - CSS-HTML-SASS-REACT-Responsive",
     "react": "Buscador de personajes de Rick y Morty - CSS/HTML/REACT/Responsive"
   },
