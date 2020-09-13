@@ -8,7 +8,7 @@ import linkedin from '../assets/images/linkedin.svg';
 function Contact() {
   const { t } = useTranslation();
   return (
-    <main className="contact-section">
+    <main id="contact" className="contact-section">
       <h1 className="contact-title">{t('menu.nav-contact')}</h1>
       <p>{t('contact.intro')}</p>
       <div className="socialmedia-container">

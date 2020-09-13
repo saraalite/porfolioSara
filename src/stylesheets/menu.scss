@@ -1,5 +1,9 @@
 @import "./variables.scss";
-
+*{
+  list-style:none;
+  text-decoration: none;
+  color:black;
+}
 .main-menu{
   background-color: $primary-color;
   color: white;
@@ -13,13 +17,17 @@
   height: 60px;
 
   .language-button-container{
+    display:flex;
+    flex-direction:row;
     margin-top: 15px;
-    .button-es{
-      border-right: 1px solid $fourth-color;
-    }
+    height:25px;
+  
     .language-button{
       border:0px;
       background-color: $primary-color;
+    }
+    .button-es{
+      border-right: 1px solid $fourth-color;
     }
   }
   .section-menu {
@@ -27,7 +35,8 @@
     width: 80%;
     justify-content: space-around;
     .is-current{
-      background-color: red;
+      text-decoration: underline;
+      font-weight: bold;
     }
   }
 }
