@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import '../stylesheets/about.scss';
 import { useTranslation } from 'react-i18next';
-import reflective from '../assets/images/me/reflective.png';
-import serius from '../assets/images/me/serius.png';
+import reflective from '../assets/images/me/reflective.webp';
+import serius from '../assets/images/me/serius.webp';
 import gulp from '../assets/images/technologies/gulp.svg';
 import css from '../assets/images/technologies/css.svg';
 import html from '../assets/images/technologies/html5.svg';
@@ -27,12 +27,14 @@ function About() {
       onMouseEnter={() => setChancheColorFormAndImage(true)}
       onMouseLeave={() => setChancheColorFormAndImage(false)}
       style={{
-        '--change-background': chancheColorFormAndImage ? 'white' : 'black',
+        '--change-background': chancheColorFormAndImage
+          ? 'var(--primary-color)'
+          : 'var(--fourth-color)',
       }}
     >
       <section id="about" className="about-main">
-        <h1 className="about-title">{t('menu.nav-about')}</h1>
         <AboutBackground className="about-background" />
+        <h1 className="about-title">{t('menu.nav-about')}</h1>
         <article className="about-flex">
           <img
             className="me-image"

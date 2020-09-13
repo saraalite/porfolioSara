@@ -1,6 +1,8 @@
 @import "./variables.scss";
 
 .proyects-main{
+    z-index: -2;
+    position: relative;
     background-color: $third-color-light; 
     margin-top:-20px;
     text-align:center;
@@ -13,6 +15,21 @@
         padding-right:100px;
     }
     padding-bottom:40px;
+
+    .projects-background{
+      z-index: -1;
+      position: absolute;
+      height: 7em;
+      width: 7em; 
+      right: 30px; 
+      top: 20px;
+      #web-semi {
+        fill: $primary-color;
+      }
+      #web-circle {
+        fill: var(--change-background);
+      }
+    }
 
     .projects-container{
       display:grid;
