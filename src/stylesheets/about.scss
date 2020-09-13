@@ -36,7 +36,7 @@
     .about-flex{
         display:flex;
         flex-direction:column;
-        @media (min-width: 767px){
+        @media (min-width: 1025px){
             flex-direction:row;
         } 
         .me-image{
@@ -45,13 +45,11 @@
             margin-left:auto;
             margin-right:auto;
             @media (min-width: 500px){
-                max-width:250px;
+                max-width:350px;
                 align-self:center;
             }
-            
             @media (min-width: 800px){
                 max-width:350px;
-                margin-left:40px;
             }
             
         }

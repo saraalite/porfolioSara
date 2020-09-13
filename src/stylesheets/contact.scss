@@ -1,63 +1,89 @@
 @import "./variables.scss";
 
+
+
 .contact-section {
+  z-index: -2;
+  position: relative;
   text-align:center;
-  background-color: $secondary-color; 
+  background-color: $secondary-color-light; 
   margin-top:-22px;
   padding-left:10px;
   padding-right:10px;
-  padding-bottom:20px;
+  padding-bottom:40px;
   @media (min-width: 500px){
       padding-left:80px;
       padding-right:80px;
   }
+  
   .contact-title{
-      text-align:center;
-      padding-top:30px;
+    text-align:center;
+    padding-top: 130px;
   }
 
-  .contact-flex{
-    padding-top:30px;
-    display:grid;
-    grid-template-columns: 1fr;
-       @media (min-width: 500px){
-      grid-template-columns: 1fr 1fr;
-      
+  .contact-background{
+    z-index: -1;
+    position: absolute;
+    height: 7em;
+    width: 7em; 
+    left: calc(50% - 3.5em); 
+    top: 10px;
+    #web-thunder {
+      fill: $third-color;
     }
-    .contact-text{
-      padding-top:20px;
-      align-self:center;
+    #web-square {
+      fill: var(--change-background);
     }
-    .socialmedia-container{
-      *{
-        text-decoration:none;
-        color:black;
+  }
+  .contact-wrapper {
+    display: flex;
+    justify-content: center;
+
+    .contact-flex{
+      display:grid;
+      grid-template-columns: 1fr;
+      @media (min-width: 1024px){
+        grid-template-columns: 1fr 1fr;
+        max-width: 70%; 
       }
-      color:black;
-      margin-top:30px;
-      display:flex;
-      flex-direction:column;
-      text-align:center;
-      padding:20px;
-      @media (min-width: 500px){
-        margin-top:0px;
-          flex-direction:column;
-          justify-content:space-between
-      }
-      .contact-icon{
-          width:30px;
-          align-self:center;      
-      }
-      .contact-image-container{
-        display:block;
-        text-align:center;
-      }
-      .contact-block{
+      .contact-text{
         padding-top:20px;
+        align-self:center;
+      }
+      .socialmedia-container{
+        *{
+          text-decoration:none;
+          color:black;
+        }
+        color:black;
+        margin-top:30px;
+        display:flex;
+        flex-direction:column;
+        text-align:center;
+        padding:20px;
+        @media (min-width: 500px){
+          margin-top:0px;
+            flex-direction:column;
+            justify-content:space-between
+        }
+      
+        .contact-block{
+          padding-top:20px;
+          .contact-icon{
+            width:30px;
+            align-self:center;      
+          }
+          .contact-image-container{
+            display:block;
+            text-align:center;
+          }
+          .contact-url{
+            word-break: break-all;
+          }
+        }
       }
     }
   }
-
 }
 
 
