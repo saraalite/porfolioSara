@@ -1,23 +1,25 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import '../stylesheets/contact.scss';
-import github from '../assets/images/github.svg';
-import email from '../assets/images/email.svg';
-import linkedin from '../assets/images/linkedin.svg';
+import github from '../assets/images/icons/github.svg';
+import email from '../assets/images/icons/email.svg';
+import linkedin from '../assets/images/icons/linkedin.svg';
 
 function Contact() {
   const { t } = useTranslation();
   return (
     <main id="contact" className="contact-section">
       <h1 className="contact-title">{t('menu.nav-contact')}</h1>
-      <p>{t('contact.intro')}</p>
+      <div>{t('contact.intro')}</div>
       <div className="socialmedia-container">
         <img className="contact-icon" src={github} alt="github logo" />
-        <p>https://github.com/saraalite</p>
+        <p className="contact-url">https://github.com/saraalite</p>
         <img className="contact-icon" src={linkedin} alt="linkedin logo" />
-        <p>https://www.linkedin.com/ in/saraalitevillodre/</p>
+        <p className="contact-url">
+          https://www.linkedin.com/in/saraalitevillodre/
+        </p>
         <img className="contact-icon" src={email} alt="email icon" />
-        <p>saraalite@gmail.com</p>
+        <p className="contact-url">saraalite@gmail.com</p>
       </div>
     </main>
   );

@@ -1,8 +1,8 @@
 import React from 'react';
-import '../stylesheets/proyects.scss';
+import '../stylesheets/proyect.scss';
 import { useTranslation } from 'react-i18next';
-import github from '../assets/images/github.svg';
-import link from '../assets/images/link.svg';
+import github from '../assets/images/icons/github.svg';
+import link from '../assets/images/icons/link.svg';
 
 function Proyect({ githubUrl, webUrl, technologies, description }) {
   const { t } = useTranslation();

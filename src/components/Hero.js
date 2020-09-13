@@ -1,8 +1,8 @@
 import React from 'react';
 import '../stylesheets/hero.scss';
-import { ReactComponent as HeroDesktop } from '../assets/images/herodesktop.svg';
-import { ReactComponent as HeroIpad } from '../assets/images/heroipad.svg';
-import { ReactComponent as HeroMobile } from '../assets/images/heromobile.svg';
+import { ReactComponent as HeroDesktop } from '../assets/images/hero/herodesktop.svg';
+import { ReactComponent as HeroIpad } from '../assets/images/hero/heroipad.svg';
+import { ReactComponent as HeroMobile } from '../assets/images/hero/heromobile.svg';
 
 function Hero() {
   return (

@@ -1,12 +1,12 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import '../stylesheets/bot.scss';
 import { useTranslation } from 'react-i18next';
-import { ReactComponent as PersonHello } from '../assets/images/botHello.svg';
-import { ReactComponent as Person } from '../assets/images/bot.svg';
+import { ReactComponent as PersonHello } from '../assets/images/bot/botHello.svg';
+import { ReactComponent as Person } from '../assets/images/bot/bot.svg';
 
 function Bot() {
   const { t } = useTranslation();
-  const [isTalking, setIsTalking] = useState('bot.sentence1');
+  const [isTalking, setIsTalking] = useState();
   const [timesTalk, setTimesTalk] = useState(0);
   const [timeOut, setTimesOut] = useState(() => {});
 
@@ -36,9 +36,14 @@ function Bot() {
     setTimesOut(
       setTimeout(() => {
         setIsTalking('');
-      }, 4000)
+      }, 6000)
     );
   };
+
+  useEffect(() => {
+    saySomething();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   return (
     <>

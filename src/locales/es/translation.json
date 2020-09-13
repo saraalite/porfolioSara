@@ -31,13 +31,13 @@
     "porfolio":"Mi porfolio",
     "recipes":"Blog de recetas - EN DESARROLLO",
     "adalab":"Aquí puedes ver algunos de los proyectos que hice durante el bootcamp",
-    "css":"Página web responsive con animaciones y transiciones - CSS/HTML5/Mobile first",
-    "css-group": "Proyecto grupal: Página web responsive para dar a conocer a las estudiantes - CSS/HTML5/SASS/Mobile first",
-    "javascript-group": "Proyecto grupal: Web app: generador de tarjetas de visita personalizadas - CSS/HTML/SASS/JS/ Responsive",
-    "javascript": "Mini juego: Adivina el número - CSS/HTML/JS/Responsive",
+    "css":"Página web responsive con animaciones y transiciones",
+    "css-group": "Proyecto grupal: Página web responsive para dar a conocer a las estudiantes",
+    "javascript-group": "Proyecto grupal: Web app: generador de tarjetas de visita personalizadas",
+    "javascript": "Mini juego: Adivina el número",
     "javascript-film":"Buscador de series con conexión a API Rest",
-    "react-group": "Refactorización de código del proyecto de compañeras - CSS-HTML-SASS-REACT-Responsive",
-    "react": "Buscador de personajes de Rick y Morty - CSS/HTML/REACT/Responsive"
+    "react-group": "Refactorización de código del proyecto de compañeras",
+    "react": "Buscador de personajes de Rick y Morty"
   },
   "contact":{
     "intro":"Si quieres contactar conmigo para hacer sugerencias sobre mi trabajo, ver mis redes sociales o simplemente charlar puedes encontrarme en Linkedin, Github o escribirme un email. También estoy buscando mi primer empleo como desarrolladora Front End, así que si crees que mi perfil puede encajar en lo que buscas no dudes en decírmelo."

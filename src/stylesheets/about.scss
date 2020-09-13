@@ -1,17 +1,35 @@
 @import "./variables.scss";
 
 .about-main{
-/*    height: 250vh;  */
-    padding-bottom:60px;
+    z-index: -2;
+    padding-bottom: 60px;
     background-color: $secondary-color-light;
     padding-top:30px;
     margin-top:-20px;
     padding-left:15px;
     padding-right:10px;
+    position: relative;
     @media (min-width: 500px){  
       padding-left:85px;
       padding-right:85px;
     }
+
+    .about-background{
+      z-index: -1;
+      position: absolute;
+      height: 7em;
+      width: 7em; 
+      left: 30px; 
+      top: 20px;
+      fill: var(--change-background);
+      #web-thunder {
+        fill: $third-color;
+      }
+      #web-square {
+        fill: $fourth-color;
+      }
+    }
+    
     .about-title{
         text-align: center;
         padding-top:50px;
@@ -22,23 +40,18 @@
         @media (min-width: 767px){
             flex-direction:row;
         } 
-        .foto-sara{
-            width:200px;
-            border-radius:50%;
+        .me-image{
+            max-width:200px;
             display:block;
             margin-left:auto;
             margin-right:auto;
-            border:10px solid $third-color;
             @media (min-width: 500px){
-                width:220px;
-                height: 320px;
-                margin-left:40px;
+                max-width:250px;
                 align-self:center;
             }
             
             @media (min-width: 800px){
-                width:250px;
-                height: 340px;
+                max-width:350px;
                 margin-left:40px;
             }
             

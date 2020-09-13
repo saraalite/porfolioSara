@@ -31,13 +31,13 @@
     "porfolio":"My porfolio",
     "recipes":"Recipes blog - ON DEVELOPEMENT",
     "adalab":"Below you can find some of the projects I worked on during the bootcamp",
-    "css":"Responsive web page with animations and transitions - CSS/HTML5/Mobile first",
-    "css-group": "Group project: Responsive webpage to promote students - CSS/HTML5/SASS/Mobile first",
-    "javascript-group": "Group project: Web app: generator of customized visit cards - CSS/HTML/SASS/JS/Responsive",
-    "javascript": "Mini game: Guess the number - CSS/HTML/JS/Responsive",
+    "css":"Responsive web page with animations and transitions",
+    "css-group": "Group project: Responsive webpage to promote students",
+    "javascript-group": "Group project: Web app: generator of customized visit cards",
+    "javascript": "Mini game: Guess the number",
     "javascript-film":"Series finder connected to API Rest",
-    "react-group": "Code refactoring of classmates' code - CSS/HTML/SASS/REACT/Responsive",
-    "react": "Rick and Morty character finder - CSS/HTML/REACT/Responsive"
+    "react-group": "Code refactoring of classmates' code",
+    "react": "Rick and Morty character finder"
   },
   "contact":{
     "title":"Contact",

@@ -7,8 +7,11 @@ $third-color-light: lighten( $third-color, 20% );
 $fourth-color: #7048f5;
 $fourth-color-light: lighten( $fourth-color, 30% );
 
+$change-background: black;
+
 $black-light: lighten( black, 30% );
 
 *{
   font-family: 'Mitr', sans-serif;
+  font-size: 20px;;
 }
