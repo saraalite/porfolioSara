@@ -6,8 +6,8 @@ function Footer() {
   const { t } = useTranslation();
   return (
     <section className="footer-main">
-      <p>{t('sections.main.menu.nav1')}</p>
-      <p>{t('sections.main.menu.nav1')}</p>
+      <p className="footer-text"> {t('footer.develop')}</p>
+      <p className="footer-text"> {t('footer.code')}</p>
     </section>
   );
 }

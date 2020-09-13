@@ -36,7 +36,7 @@ function About() {
         <article className="about-flex">
           <img
             className="me-image"
-            src={chancheColorFormAndImage ? serius : reflective}
+            src={chancheColorFormAndImage ? reflective : serius}
             alt="Sara Alite"
           />
           <article className="about-text">
