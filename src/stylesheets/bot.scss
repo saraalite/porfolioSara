@@ -1,13 +1,17 @@
 .bot {
   z-index: 1;
   position: fixed;
-/*   display: flex;
-  align-items: center; */
   bottom: -15px;
   right: 10px;
-  -webkit-user-select: none; /* Safari */
-  -ms-user-select: none; /* IE 10+ and Edge */
-  user-select: none; /* Standard syntax */
+/*   -webkit-user-select: none;
+  -ms-user-select: none; 
+  user-select: none; */
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
   .person{
     width: 150px;
     height: 150px;
