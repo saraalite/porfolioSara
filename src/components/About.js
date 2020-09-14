@@ -15,19 +15,17 @@ import github from '../assets/images/icons/github.svg';
 import { ReactComponent as AboutBackground } from '../assets/images/backgrounds/about.svg';
 
 function About() {
-  const [chancheColorFormAndImage, setChancheColorFormAndImage] = useState(
-    false
-  );
+  const [changeColorFormAndImage, setChangeColorFormAndImage] = useState(false);
   const { t } = useTranslation();
 
   return (
     <div
-      onTouchStart={() => setChancheColorFormAndImage(true)}
-      onTouchEnd={() => setChancheColorFormAndImage(false)}
-      onMouseEnter={() => setChancheColorFormAndImage(true)}
-      onMouseLeave={() => setChancheColorFormAndImage(false)}
+      onTouchStart={() => setChangeColorFormAndImage(true)}
+      onTouchEnd={() => setChangeColorFormAndImage(false)}
+      onMouseEnter={() => setChangeColorFormAndImage(true)}
+      onMouseLeave={() => setChangeColorFormAndImage(false)}
       style={{
-        '--change-background': chancheColorFormAndImage
+        '--change-background': changeColorFormAndImage
           ? 'var(--primary-color)'
           : 'var(--fourth-color)',
       }}
@@ -38,7 +36,7 @@ function About() {
         <article className="about-flex">
           <img
             className="me-image"
-            src={chancheColorFormAndImage ? reflective : serius}
+            src={changeColorFormAndImage ? reflective : serius}
             alt="Sara Alite"
           />
           <article className="about-text">

@@ -8,18 +8,16 @@ import linkedin from '../assets/images/icons/linkedin.svg';
 import { ReactComponent as ContactBackground } from '../assets/images/backgrounds/contact.svg';
 
 function Contact() {
-  const [chancheColorFormAndImage, setChancheColorFormAndImage] = useState(
-    false
-  );
+  const [changeColorFormAndImage, setChangeColorFormAndImage] = useState(false);
   const { t } = useTranslation();
   return (
     <div
-      onTouchStart={() => setChancheColorFormAndImage(true)}
-      onTouchEnd={() => setChancheColorFormAndImage(false)}
-      onMouseEnter={() => setChancheColorFormAndImage(true)}
-      onMouseLeave={() => setChancheColorFormAndImage(false)}
+      onTouchStart={() => setChangeColorFormAndImage(true)}
+      onTouchEnd={() => setChangeColorFormAndImage(false)}
+      onMouseEnter={() => setChangeColorFormAndImage(true)}
+      onMouseLeave={() => setChangeColorFormAndImage(false)}
       style={{
-        '--change-background': chancheColorFormAndImage
+        '--change-background': changeColorFormAndImage
           ? 'var(--primary-color)'
           : 'var(--fourth-color)',
       }}

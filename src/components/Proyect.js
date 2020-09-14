@@ -50,7 +50,11 @@ function Proyect({ githubUrl, webUrl, technologies, description }) {
           <img className="project-link" src={link} alt="external link" />
         </a>
       </nav>
-      <p>{t(description)}</p>
+      <a href={webUrl} target="_blank">
+        {' '}
+        <p>{t(description)}</p>
+      </a>
+
       {technologiesBadges}
     </div>
   );

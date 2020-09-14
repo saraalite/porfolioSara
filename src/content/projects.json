@@ -1,8 +1,8 @@
 { 
   "personal": [
     {
-      "urlGithub": "",
-      "webUrl": "",
+      "urlGithub": "https://github.com/saraalite/porfolioSara",
+      "webUrl": "https://saraalite.netlify.app/",
       "description": "projects.porfolio",
       "technologies": ["css", "html", "sass", "react", "responsive","mobile_first"]
     },
