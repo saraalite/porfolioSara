@@ -11,6 +11,7 @@ function Bot() {
   const [timeOut, setTimesOut] = useState(() => {});
 
   const thingToSay = [
+    'bot.sentence1',
     'bot.sentence2',
     'bot.sentence3',
     'bot.sentence4',
@@ -22,6 +23,12 @@ function Bot() {
     'bot.sentence10',
     'bot.sentence11',
     'bot.sentence12',
+    'bot.sentence13',
+    'bot.sentence14',
+    'bot.sentence15',
+    'bot.sentence16',
+    'bot.sentence17',
+    'bot.sentence18',
   ];
 
   const saySomething = () => {
@@ -29,6 +36,7 @@ function Bot() {
     if (timesTalk > thingToSay.length - 1) {
       nextToSay = 0;
     }
+
     setIsTalking(thingToSay[nextToSay]);
     setTimesTalk(nextToSay + 1);
     clearTimeout(timeOut);

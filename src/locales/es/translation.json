@@ -16,7 +16,14 @@
     "sentence9": "¿Has probado con $sudo?",
     "sentence10": "¿Sabías que el 13 de septiembre es el día de los programadores y programadoras?",
     "sentence11": "¿Cuántos desarrolladores hacen falta para cambiar una bombilla? Ninguno, es cosa del hardware",
-    "sentence12": "¿Qué necesita un programador/a para bailar? Algo-ritmo"
+    "sentence12": "¿Qué necesita un programador/a para bailar? Algo-ritmo",
+    "sentence13": "¿Conoces a Ada Lovelace? ¿Y a Grace Hopper? ¿Y a Margaret Hamilton?",
+    "sentence14": "Bendito sea StackOverflow",
+    "sentence15": "Hace mucho rato desde que hiciste el último commit, ¿no?",
+    "sentence16": "¿Qué es un terapeuta? 1024 Gigapeutas",
+    "sentence17": "Están 1023 gigabytes en una fiesta, llegan 1048576 más y dicen: ¿Nos hacemos un peta?",
+    "sentence18": "Me encanta pulsar F5, es refrescante"
+
   },
   "about": {
     "hello": "👋 ¡Hola! Me llamo Sara Alite Villodre y soy desarrolladora Front End Junior.",

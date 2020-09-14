@@ -16,7 +16,14 @@
     "sentence9": "Have you tried $sudo?",
     "sentence10": "Did you know that September the 13th is the software developers day?",
     "sentence11": "How many developers does it take to change a light bulb? None, it's a hardware problem",
-    "sentence12": "There are 10 types of people in the world: those who understand binary and those who don't"
+    "sentence12": "There are 10 types of people in the world: those who understand binary and those who don't",
+    "sentence13": "Do you know Ada Lovelace? And Grace Hopper? And Margaret Hamilton?",
+    "sentence14": "God bless StackOverflow",
+    "sentence15": "It's been a while since your last commit, doesn't it?",
+    "sentence16": "Why did the programmer quit his job? Because he didn't get arrays",
+    "sentence17": "-Programmer: Son, can you count to 10? -3yr old son: 1, 2, 3... -Programmer: Stop. You're not my son",
+    "sentence18": "I love pressing F5, it's refreshing"
+
   },
   "about": {
     "hello": "👋 Hi! I am Sara Alite Villodre and I am a Junior Front End Developer.",
