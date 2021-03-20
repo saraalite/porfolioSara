@@ -13,7 +13,7 @@ function Footer() {
         <span role="img" aria-label="computer image">
           💻
         </span>{' '}
-        2020{' '}
+        {t('footer.year')}{' '}
       </p>
     </section>
   );
