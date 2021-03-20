@@ -16,50 +16,50 @@
   "adalab": [
     {
       "urlGithub":
-        "https://github.com/Adalab/modulo-1-evaluacion-final-saraalite",
-      "webUrl": "https://beta.adalab.es/modulo-1-evaluacion-final-saraalite/",
+        "https://github.com/saraalite/modulo-1-evaluacion-final-saraalite",
+      "webUrl": "http://saraalite.github.io/modulo-1-evaluacion-final-saraalite/",
       "description": "projects.css",
       "technologies": ["css", "html", "mobile_first"]
     },
     {
       "urlGithub":
-        "https://github.com/Adalab/project-promo-j-module-1-team-4",
-      "webUrl": "https://beta.adalab.es/project-promo-j-module-1-team-4/",
+        "https://github.com/mercarf/Quinteto-de-sudo",
+      "webUrl": "https://mercarf.github.io/Quinteto-de-sudo/",
       "description": "projects.css-group",
       "technologies": ["css", "html", "sass", "mobile_first"]
     },
     {
       "urlGithub":
-        "https://github.com/Adalab/project-promo-j-module-2-team-3-morning",
-      "webUrl": "https://beta.adalab.es/project-promo-j-module-2-team-3-morning/",
+        "https://github.com/Cristinalorenzomontes/project-promo-j-module-2-team-3-morning",
+      "webUrl": "https://cristinalorenzomontes.github.io/project-promo-j-module-2-team-3-morning/",
       "description": "projects.javascript-group",
       "technologies": ["css", "html", "sass", "javascript", "responsive"]
     },
     {
       "urlGithub":
-        "https://github.com/Adalab/modulo-2-evaluacion-intermedia-saraalite",
-      "webUrl": "https://beta.adalab.es/modulo-2-evaluacion-intermedia-saraalite/",
+        "https://github.com/saraalite/modulo-2-evaluacion-intermedia-saraalite",
+      "webUrl": "http://saraalite.github.io/modulo-2-evaluacion-intermedia-saraalite/",
       "description": "projects.javascript",
       "technologies": ["css", "html", "javascript"]
     },
     {
       "urlGithub":
-        "https://github.com/Adalab/modulo-2-evaluacion-final-saraalite",
-      "webUrl": "http://beta.adalab.es/modulo-2-evaluacion-final-saraalite/",
+        "https://github.com/saraalite/modulo-2-evaluacion-final-saraalite",
+      "webUrl": "http://saraalite.github.io/modulo-2-evaluacion-final-saraalite/",
       "description": "projects.javascript-film",
       "technologies": ["css", "html", "javascript"]
     },
     {
       "urlGithub":
-        "https://github.com/Adalab/project-promo-j-module-3-team-2",
-      "webUrl": "https://beta.adalab.es/project-promo-j-module-3-team-2/#/",
+        "https://github.com/saraalite/project-promo-j-module-3-team-2",
+      "webUrl": "http://saraalite.github.io/project-promo-j-module-3-team-2/#/",
       "description": "projects.react-group",
       "technologies": ["css", "html", "sass", "react", "responsive"]
     },
     {
       "urlGithub":
-        "https://github.com/Adalab/modulo-3-evaluacion-final-saraalite",
-      "webUrl": "https://beta.adalab.es/modulo-3-evaluacion-final-saraalite/#/",
+        "https://github.com/saraalite/modulo-3-evaluacion-final-saraalite",
+      "webUrl": "http://saraalite.github.io/modulo-3-evaluacion-final-saraalite/#/",
       "description": "projects.react",
       "technologies": ["css", "html", "react", "mobile_first", "responsive"]
     }
