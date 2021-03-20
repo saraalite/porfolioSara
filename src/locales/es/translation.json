@@ -47,11 +47,11 @@
     "react": "Buscador de personajes de Rick y Morty"
   },
   "contact":{
-    "intro":"Si quieres contactar conmigo para hacer sugerencias sobre mi trabajo, ver mis redes sociales o simplemente charlar puedes encontrarme en Linkedin, Github o escribirme un email. También estoy buscando mi primer empleo como desarrolladora Front End, así que si crees que mi perfil puede encajar en lo que buscas no dudes en decírmelo."
+    "intro":"Si quieres contactar conmigo para hacer sugerencias sobre mi trabajo, ver mis redes sociales o simplemente charlar puedes encontrarme en Linkedin, Github o escribirme un email."
   },
   "footer":{
     "develop":"Desarrollado por Sara Alite Villodre",
-    "year":"2020",
+    "year":"2021",
     "code":"Que el código te acompañe"
   }
 }
